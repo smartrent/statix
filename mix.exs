@@ -1,7 +1,7 @@
 defmodule Statix.Mixfile do
   use Mix.Project
 
-  @version "1.4.0"
+  @version "1.4.1"
   @source_url "https://github.com/smartrent/statix"
 
   def project() do
@@ -38,7 +38,7 @@ defmodule Statix.Mixfile do
   end
 
   defp deps() do
-    [{:ex_doc, "~> 0.20.0", only: :dev}]
+    [{:ex_doc, "~> 0.30.0", only: :dev}]
   end
 
   defp docs() do
