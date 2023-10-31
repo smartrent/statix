@@ -2,7 +2,7 @@ defmodule Statix.Mixfile do
   use Mix.Project
 
   @version "1.4.1"
-  @source_url "https://github.com/smartrent/statix"
+  @source_url "https://github.com/appcues/statix"
 
   def project() do
     [
